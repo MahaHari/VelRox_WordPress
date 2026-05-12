@@ -1,0 +1,251 @@
+.vm-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 0;
+}
+
+.vm-main-card {
+  border-radius: 20px;
+  padding: 52px 48px;
+  position: relative;
+  overflow: hidden;
+}
+
+.vision-card {
+  background: var(--navy);
+  color: white;
+}
+
+.mission-card {
+  background: var(--ocean);
+  color: white;
+}
+
+.vmc-accent {
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: rgba(0,166,203,0.08);
+  pointer-events: none;
+}
+
+.vmc-icon {
+  width: 72px;
+  height: 72px;
+  background: rgba(0,166,203,0.15);
+  border: 1px solid rgba(0,166,203,0.30);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--teal);
+  margin-bottom: 20px;
+}
+
+.vmc-tag {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 12px;
+}
+
+.vm-main-card h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: clamp(20px, 2.5vw, 28px);
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.vmc-divider {
+  width: 48px;
+  height: 2px;
+  background: var(--teal);
+  border-radius: 2px;
+  margin: 20px 0;
+}
+
+.vm-main-card p {
+  color: rgba(255,255,255,0.72);
+  font-size: 15px;
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.vmc-points {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.vmc-points li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.5px;
+  color: rgba(255,255,255,0.72);
+  padding-left: 16px;
+  position: relative;
+}
+
+.vmc-points li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  background: var(--teal);
+  border-radius: 50%;
+}
+
+/* Core Values */
+.core-values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.cv-card {
+  background: white;
+  border: 1px solid var(--grey-border);
+  border-radius: 14px;
+  padding: 32px 28px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.cv-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(0,166,203,0.20);
+}
+
+.cv-icon {
+  width: 52px;
+  height: 52px;
+  background: rgba(0,166,203,0.08);
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--teal);
+  margin: 0 auto 16px;
+  transition: all 0.3s;
+}
+
+.cv-card:hover .cv-icon {
+  background: var(--teal);
+  color: white;
+}
+
+.cv-card h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+
+.cv-card p {
+  font-size: 13.5px;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+/* Goals */
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.goal-card {
+  background: white;
+  border: 1px solid var(--grey-border);
+  border-radius: 14px;
+  padding: 28px 24px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.goal-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, var(--teal), var(--ocean));
+}
+
+.goal-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(0,166,203,0.25);
+}
+
+.goal-year {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: var(--teal);
+  margin-bottom: 8px;
+  padding-left: 12px;
+}
+
+.goal-card h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--navy);
+  margin-bottom: 10px;
+  padding-left: 12px;
+}
+
+.goal-card p {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.65;
+  padding-left: 12px;
+}
+
+@media (max-width: 900px) {
+  .vm-main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vm-main-card {
+    padding: 40px 32px;
+  }
+
+  .core-values-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .goals-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .core-values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .goals-grid {
+    grid-template-columns: 1fr;
+  }
+}

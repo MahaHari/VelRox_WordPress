@@ -1,0 +1,76 @@
+.page-banner {
+  position: relative;
+  height: 380px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 64px;
+  overflow: hidden;
+}
+
+.page-banner-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.page-banner-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+.page-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(13,27,42,0.90) 0%, rgba(30,58,95,0.80) 100%);
+}
+
+.page-banner-content {
+  position: relative;
+  z-index: 2;
+}
+
+.page-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.bc-sep {
+  color: #00A6CB;
+}
+
+.page-banner-content .page-breadcrumb span:last-child {
+  color: #00A6CB;
+}
+
+.page-banner-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: clamp(32px, 5vw, 56px);
+  color: white;
+  margin-bottom: 12px;
+  line-height: 1.1;
+}
+
+.page-banner-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: rgba(255,255,255,0.70);
+  max-width: 540px;
+  line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+  .page-banner {
+    height: 300px;
+    padding-bottom: 48px;
+  }
+}

@@ -1,0 +1,229 @@
+.why-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.why-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.why-stat-card {
+  background: var(--grey-bg);
+  border: 1px solid var(--grey-border);
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.why-stat-card:hover {
+  background: var(--navy);
+  border-color: var(--navy);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.why-stat-num {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: var(--teal);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.why-stat-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: color 0.3s;
+}
+
+.why-stat-card:hover .why-stat-label {
+  color: rgba(255,255,255,0.65);
+}
+
+/* Advantages */
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.advantage-card {
+  background: white;
+  border: 1px solid var(--grey-border);
+  border-radius: 16px;
+  padding: 36px 32px;
+  transition: all 0.35s;
+  position: relative;
+  overflow: hidden;
+}
+
+.advantage-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal), var(--teal-light));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s;
+}
+
+.advantage-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+  border-color: transparent;
+}
+
+.advantage-card:hover::before {
+  transform: scaleX(1);
+}
+
+.adv-tag {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--teal);
+  background: rgba(0,166,203,0.08);
+  padding: 4px 12px;
+  border-radius: 100px;
+  margin-bottom: 20px;
+}
+
+.adv-icon {
+  width: 56px;
+  height: 56px;
+  background: rgba(0,166,203,0.08);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--teal);
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.advantage-card:hover .adv-icon {
+  background: var(--teal);
+  color: white;
+}
+
+.advantage-card h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--navy);
+  margin-bottom: 12px;
+}
+
+.advantage-card p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+/* Comparison Table */
+.comparison-table {
+  max-width: 760px;
+  margin: 0 auto;
+  border: 1px solid var(--grey-border);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.comparison-header,
+.comparison-row {
+  display: grid;
+  grid-template-columns: 1fr 160px 160px;
+}
+
+.comparison-header {
+  background: var(--navy);
+  padding: 16px 28px;
+}
+
+.comparison-header > * {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.comparison-header .comp-velrox {
+  color: var(--teal);
+  text-align: center;
+}
+
+.comparison-header .comp-other {
+  text-align: center;
+  color: rgba(255,255,255,0.55);
+}
+
+.comparison-row {
+  padding: 14px 28px;
+  border-bottom: 1px solid var(--grey-border);
+  align-items: center;
+  background: white;
+  transition: background 0.2s;
+}
+
+.comparison-row:last-child {
+  border-bottom: none;
+}
+
+.comparison-row:hover {
+  background: var(--grey-bg);
+}
+
+.comp-feature {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: var(--text-body);
+}
+
+.comp-velrox,
+.comp-other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .why-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .advantages-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .comparison-table {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 640px) {
+  .advantages-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
