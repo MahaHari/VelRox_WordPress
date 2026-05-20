@@ -25,21 +25,27 @@
     }
 
     /* ============================================================
-       STICKY HEADER
+       STICKY HEADER — transparent over hero (homepage), solid elsewhere
        ============================================================ */
     function initStickyHeader() {
         var header = document.getElementById('site-header');
         if (!header) return;
 
+        var hasHero = document.querySelector('.hero-carousel') || document.querySelector('.hero-section');
+
         function onScroll() {
-            if (window.scrollY > 40) {
+            if (window.scrollY > 80) {
                 header.classList.add('scrolled');
             } else {
                 header.classList.remove('scrolled');
             }
         }
-        window.addEventListener('scroll', onScroll, { passive: true });
-        onScroll();
+
+        if (hasHero) {
+            window.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+        }
+        // Inner pages receive .site-header--solid from PHP, no JS needed
     }
 
     /* ============================================================
@@ -88,17 +94,65 @@
     }
 
     /* ============================================================
-       HERO PARALLAX
+       HERO CAROUSEL
        ============================================================ */
-    function initParallax() {
-        var heroBg = document.getElementById('hero-parallax');
-        if (!heroBg) return;
+    function initHeroCarousel() {
+        var carousel = document.querySelector('.hero-carousel');
+        if (!carousel) return;
 
-        function onScroll() {
-            var scrollY = window.scrollY;
-            heroBg.style.transform = 'translateY(' + (scrollY * 0.3) + 'px)';
+        var slides   = carousel.querySelectorAll('.hero-slide');
+        var dots     = carousel.querySelectorAll('.hero-dot');
+        var prevBtn  = carousel.querySelector('.hero-prev');
+        var nextBtn  = carousel.querySelector('.hero-next');
+        var total    = slides.length;
+        var current  = 0;
+        var timer    = null;
+        var interval = 5500;
+
+        function goTo(index) {
+            slides[current].classList.remove('active');
+            if (dots[current]) dots[current].classList.remove('active');
+            current = (index + total) % total;
+            slides[current].classList.add('active');
+            if (dots[current]) dots[current].classList.add('active');
         }
-        window.addEventListener('scroll', onScroll, { passive: true });
+
+        function startTimer() {
+            clearInterval(timer);
+            timer = setInterval(function () { goTo(current + 1); }, interval);
+        }
+
+        function stopTimer() { clearInterval(timer); }
+
+        goTo(0);
+        startTimer();
+
+        if (prevBtn) {
+            prevBtn.addEventListener('click', function () { goTo(current - 1); startTimer(); });
+        }
+        if (nextBtn) {
+            nextBtn.addEventListener('click', function () { goTo(current + 1); startTimer(); });
+        }
+
+        dots.forEach(function (dot, i) {
+            dot.addEventListener('click', function () { goTo(i); startTimer(); });
+        });
+
+        carousel.addEventListener('mouseenter', stopTimer);
+        carousel.addEventListener('mouseleave', startTimer);
+
+        // Touch swipe
+        var touchStartX = 0;
+        carousel.addEventListener('touchstart', function (e) {
+            touchStartX = e.changedTouches[0].clientX;
+        }, { passive: true });
+        carousel.addEventListener('touchend', function (e) {
+            var diff = touchStartX - e.changedTouches[0].clientX;
+            if (Math.abs(diff) > 50) {
+                goTo(diff > 0 ? current + 1 : current - 1);
+                startTimer();
+            }
+        }, { passive: true });
     }
 
     /* ============================================================
@@ -123,7 +177,7 @@
         initScrollAnimations();
         initStickyHeader();
         initMobileMenu();
-        initParallax();
+        initHeroCarousel();
         initSmoothScroll();
     });
 

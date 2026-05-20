@@ -1,40 +1,109 @@
 <?php get_header(); ?>
 
 <!-- ============================================================
-     HERO SECTION
+     HERO CAROUSEL
      ============================================================ -->
-<section class="hero-section">
-    <div class="hero-bg" id="hero-parallax">
-        <img src="https://images.pexels.com/photos/1619838/pexels-photo-1619838.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
-             alt="<?php esc_attr_e( 'Global seafood trading vessel', 'velrox' ); ?>"
-             loading="eager" fetchpriority="high">
-    </div>
-    <div class="hero-overlay"></div>
-    <div class="hero-content container">
-        <div class="hero-text animate-fade-up">
-            <div class="hero-tag">
-                <span class="tag-dot"></span>
-                <?php esc_html_e( 'Global Seafood Trading', 'velrox' ); ?>
-            </div>
-            <h1 class="hero-title">
-                <?php esc_html_e( 'Reliable Global', 'velrox' ); ?><br>
-                <span><?php esc_html_e( 'Seafood Trading', 'velrox' ); ?></span><br>
-                <?php esc_html_e( 'Solutions', 'velrox' ); ?>
-            </h1>
-            <p class="hero-subtitle">
-                <?php esc_html_e( 'Connecting international seafood supply with European market standards through trust, logistics, and long-term partnerships.', 'velrox' ); ?>
-            </p>
-            <div class="hero-actions">
-                <a href="<?php echo esc_url( home_url( '/services' ) ); ?>" class="btn btn-primary btn-lg">
-                    <?php esc_html_e( 'Explore Services', 'velrox' ); ?>
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-                <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn btn-outline btn-lg">
-                    <?php esc_html_e( 'Contact Us', 'velrox' ); ?>
-                </a>
+<section class="hero-carousel" aria-label="<?php esc_attr_e( 'Hero banner', 'velrox' ); ?>">
+
+    <!-- Slide 1 — Reliable Global Seafood Trading -->
+    <div class="hero-slide">
+        <div class="hero-slide-bg">
+            <img src="https://images.pexels.com/photos/1619838/pexels-photo-1619838.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+                 alt="<?php esc_attr_e( 'Global seafood trading vessel at sea', 'velrox' ); ?>"
+                 loading="eager" fetchpriority="high">
+        </div>
+        <div class="hero-slide-overlay"></div>
+        <div class="hero-content container">
+            <div class="hero-text">
+                <div class="hero-tag"><span class="tag-dot"></span><?php esc_html_e( 'Global Seafood Trading', 'velrox' ); ?></div>
+                <h1 class="hero-title">
+                    <?php esc_html_e( 'Reliable Global', 'velrox' ); ?><br>
+                    <span><?php esc_html_e( 'Seafood Trading', 'velrox' ); ?></span><br>
+                    <?php esc_html_e( 'Solutions', 'velrox' ); ?>
+                </h1>
+                <p class="hero-subtitle"><?php esc_html_e( 'Connecting international seafood supply with European market standards through trust, logistics, and long-term partnerships.', 'velrox' ); ?></p>
+                <div class="hero-actions">
+                    <a href="<?php echo esc_url( home_url( '/services' ) ); ?>" class="btn btn-primary btn-lg">
+                        <?php esc_html_e( 'Explore Services', 'velrox' ); ?>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                    <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn btn-outline btn-lg"><?php esc_html_e( 'Contact Us', 'velrox' ); ?></a>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- Slide 2 — Export-Quality Frozen Seafood -->
+    <div class="hero-slide">
+        <div class="hero-slide-bg">
+            <img src="https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+                 alt="<?php esc_attr_e( 'Premium export-quality frozen seafood', 'velrox' ); ?>"
+                 loading="lazy">
+        </div>
+        <div class="hero-slide-overlay hero-slide-overlay--warm"></div>
+        <div class="hero-content container">
+            <div class="hero-text">
+                <div class="hero-tag"><span class="tag-dot"></span><?php esc_html_e( 'Export Quality Assured', 'velrox' ); ?></div>
+                <h1 class="hero-title">
+                    <?php esc_html_e( 'Premium Frozen Seafood', 'velrox' ); ?><br>
+                    <span><?php esc_html_e( 'for European', 'velrox' ); ?></span><br>
+                    <?php esc_html_e( 'Markets', 'velrox' ); ?>
+                </h1>
+                <p class="hero-subtitle"><?php esc_html_e( "HACCP-certified sourcing from India's finest processing facilities, delivering consistent quality and full EU food safety compliance.", 'velrox' ); ?></p>
+                <div class="hero-actions">
+                    <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="btn btn-primary btn-lg">
+                        <?php esc_html_e( 'Our Products', 'velrox' ); ?>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                    <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" class="btn btn-outline btn-lg"><?php esc_html_e( 'About Velrox', 'velrox' ); ?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3 — Global Trade & Logistics Partner -->
+    <div class="hero-slide">
+        <div class="hero-slide-bg">
+            <img src="https://images.pexels.com/photos/1117211/pexels-photo-1117211.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+                 alt="<?php esc_attr_e( 'Global shipping logistics and trade', 'velrox' ); ?>"
+                 loading="lazy">
+        </div>
+        <div class="hero-slide-overlay hero-slide-overlay--deep"></div>
+        <div class="hero-content container">
+            <div class="hero-text">
+                <div class="hero-tag"><span class="tag-dot"></span><?php esc_html_e( 'International Trade Partner', 'velrox' ); ?></div>
+                <h1 class="hero-title">
+                    <?php esc_html_e( 'Your Trusted Partner', 'velrox' ); ?><br>
+                    <span><?php esc_html_e( 'in Global', 'velrox' ); ?></span><br>
+                    <?php esc_html_e( 'Seafood Trade', 'velrox' ); ?>
+                </h1>
+                <p class="hero-subtitle"><?php esc_html_e( 'End-to-end logistics, transparent trade practices, and dedicated account support — from source to European ports, reliably delivered.', 'velrox' ); ?></p>
+                <div class="hero-actions">
+                    <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn btn-primary btn-lg">
+                        <?php esc_html_e( 'Start a Conversation', 'velrox' ); ?>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                    <a href="<?php echo esc_url( home_url( '/services' ) ); ?>" class="btn btn-outline btn-lg"><?php esc_html_e( 'Our Services', 'velrox' ); ?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="hero-prev" aria-label="<?php esc_attr_e( 'Previous slide', 'velrox' ); ?>">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="hero-next" aria-label="<?php esc_attr_e( 'Next slide', 'velrox' ); ?>">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+
+    <!-- Pagination Dots -->
+    <div class="hero-dots">
+        <button class="hero-dot" aria-label="<?php esc_attr_e( 'Go to slide 1', 'velrox' ); ?>"></button>
+        <button class="hero-dot" aria-label="<?php esc_attr_e( 'Go to slide 2', 'velrox' ); ?>"></button>
+        <button class="hero-dot" aria-label="<?php esc_attr_e( 'Go to slide 3', 'velrox' ); ?>"></button>
+    </div>
+
     <div class="scroll-indicator"><div class="scroll-line"></div></div>
 </section>
 

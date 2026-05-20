@@ -10,16 +10,19 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<header class="site-header" id="site-header">
+<?php
+$is_front = is_front_page();
+$header_class = $is_front ? 'site-header' : 'site-header site-header--solid';
+?>
+
+<header class="<?php echo esc_attr( $header_class ); ?>" id="site-header">
     <div class="header-inner container-wide">
 
         <!-- Logo -->
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="site-branding" aria-label="<?php bloginfo( 'name' ); ?>">
-            <?php if ( has_custom_logo() ) : ?>
-                <div class="logo-icon"><?php the_custom_logo(); ?></div>
-            <?php else : ?>
-                <div class="logo-icon"><?php echo velrox_logo_svg(); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
-            <?php endif; ?>
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/velrox-logo.jpg' ); ?>"
+                 alt="<?php esc_attr_e( 'Velrox Global Seafood Trading', 'velrox' ); ?>"
+                 class="site-logo-img">
             <div class="logo-text">
                 <span class="logo-brand"><?php echo esc_html( get_bloginfo( 'name' ) ?: 'VELROX' ); ?></span>
                 <span class="logo-sub">Global Seafood Trading</span>
@@ -41,7 +44,7 @@
 
         <!-- Header Actions -->
         <div class="header-actions">
-            <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn btn-primary">
+            <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn header-cta-btn">
                 <?php esc_html_e( 'Contact Us', 'velrox' ); ?>
             </a>
             <button class="mobile-toggle" id="mobile-toggle" aria-label="<?php esc_attr_e( 'Toggle menu', 'velrox' ); ?>" aria-expanded="false">
@@ -88,6 +91,7 @@ function velrox_fallback_nav() {
         home_url( '/services' )       => __( 'Services', 'velrox' ),
         home_url( '/why-velrox' )     => __( 'Why Velrox', 'velrox' ),
         home_url( '/vision-mission' ) => __( 'Vision & Mission', 'velrox' ),
+        home_url( '/products' )       => __( 'Our Products', 'velrox' ),
     ];
     echo '<nav class="site-nav"><ul>';
     foreach ( $pages as $url => $label ) {
@@ -104,6 +108,7 @@ function velrox_fallback_mobile_nav() {
         home_url( '/services' )       => __( 'Services', 'velrox' ),
         home_url( '/why-velrox' )     => __( 'Why Velrox', 'velrox' ),
         home_url( '/vision-mission' ) => __( 'Vision & Mission', 'velrox' ),
+        home_url( '/products' )       => __( 'Our Products', 'velrox' ),
     ];
     echo '<ul>';
     foreach ( $pages as $url => $label ) {
