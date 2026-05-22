@@ -5,54 +5,54 @@
      ============================================================ -->
 <section class="hero-carousel" aria-label="<?php esc_attr_e( 'Hero banner', 'velrox' ); ?>">
 
-    <!-- Slide 1 — Reliable Global Seafood Trading -->
+    <!-- Slide 1 -->
     <div class="hero-slide">
         <div class="hero-slide-bg">
-            <img src="https://images.pexels.com/photos/1619838/pexels-photo-1619838.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
-                 alt="<?php esc_attr_e( 'Global seafood trading vessel at sea', 'velrox' ); ?>"
+            <img src="https://images.pexels.com/photos/2226458/pexels-photo-2226458.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+                 alt="<?php esc_attr_e( 'Reefer containers at port', 'velrox' ); ?>"
                  loading="eager" fetchpriority="high">
         </div>
         <div class="hero-slide-overlay"></div>
         <div class="hero-content container">
             <div class="hero-text">
-                <div class="hero-tag"><span class="tag-dot"></span><?php esc_html_e( 'Global Seafood Trading', 'velrox' ); ?></div>
+                <div class="hero-tag"><span class="tag-dot"></span><?php esc_html_e( 'EU-Compliant Frozen Seafood Supply', 'velrox' ); ?></div>
                 <h1 class="hero-title">
-                    <?php esc_html_e( 'Reliable Global', 'velrox' ); ?><br>
-                    <span><?php esc_html_e( 'Seafood Trading', 'velrox' ); ?></span><br>
-                    <?php esc_html_e( 'Solutions', 'velrox' ); ?>
+                    <?php esc_html_e( 'Reliable Frozen Seafood', 'velrox' ); ?><br>
+                    <span><?php esc_html_e( 'Supply for European', 'velrox' ); ?></span><br>
+                    <?php esc_html_e( 'Buyers', 'velrox' ); ?>
                 </h1>
-                <p class="hero-subtitle"><?php esc_html_e( 'Connecting international seafood supply with European market standards through trust, logistics, and long-term partnerships.', 'velrox' ); ?></p>
+                <p class="hero-subtitle"><?php esc_html_e( 'Velrox coordinates sourcing, export execution, and cold-chain logistics through trusted seafood processing networks across Asia.', 'velrox' ); ?></p>
                 <div class="hero-actions">
-                    <a href="<?php echo esc_url( home_url( '/services' ) ); ?>" class="btn btn-primary btn-lg">
-                        <?php esc_html_e( 'Explore Services', 'velrox' ); ?>
+                    <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="btn btn-primary btn-lg">
+                        <?php esc_html_e( 'Request Product List', 'velrox' ); ?>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
-                    <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn btn-outline btn-lg"><?php esc_html_e( 'Contact Us', 'velrox' ); ?></a>
+                    <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn btn-outline btn-lg"><?php esc_html_e( 'Discuss Supply Requirements', 'velrox' ); ?></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Slide 2 — Export-Quality Frozen Seafood -->
+    <!-- Slide 2 -->
     <div class="hero-slide">
         <div class="hero-slide-bg">
-            <img src="https://images.pexels.com/photos/3376799/pexels-photo-3376799.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
-                 alt="<?php esc_attr_e( 'Premium export-quality frozen seafood', 'velrox' ); ?>"
+            <img src="https://images.pexels.com/photos/3773049/pexels-photo-3773049.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+                 alt="<?php esc_attr_e( 'Frozen seafood processing facility', 'velrox' ); ?>"
                  loading="lazy">
         </div>
         <div class="hero-slide-overlay hero-slide-overlay--warm"></div>
         <div class="hero-content container">
             <div class="hero-text">
-                <div class="hero-tag"><span class="tag-dot"></span><?php esc_html_e( 'Export Quality Assured', 'velrox' ); ?></div>
+                <div class="hero-tag"><span class="tag-dot"></span><?php esc_html_e( 'Export-Grade Product Range', 'velrox' ); ?></div>
                 <h1 class="hero-title">
-                    <?php esc_html_e( 'Premium Frozen Seafood', 'velrox' ); ?><br>
-                    <span><?php esc_html_e( 'for European', 'velrox' ); ?></span><br>
-                    <?php esc_html_e( 'Markets', 'velrox' ); ?>
+                    <?php esc_html_e( 'Certified Frozen Seafood', 'velrox' ); ?><br>
+                    <span><?php esc_html_e( 'from Asian Processing', 'velrox' ); ?></span><br>
+                    <?php esc_html_e( 'Networks', 'velrox' ); ?>
                 </h1>
-                <p class="hero-subtitle"><?php esc_html_e( "HACCP-certified sourcing from India's finest processing facilities, delivering consistent quality and full EU food safety compliance.", 'velrox' ); ?></p>
+                <p class="hero-subtitle"><?php esc_html_e( 'Full-container shipments of finfish, cephalopods, and shellfish backed by HACCP-certified supply partners and EU import documentation.', 'velrox' ); ?></p>
                 <div class="hero-actions">
                     <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="btn btn-primary btn-lg">
-                        <?php esc_html_e( 'Our Products', 'velrox' ); ?>
+                        <?php esc_html_e( 'View Our Products', 'velrox' ); ?>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
                     <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" class="btn btn-outline btn-lg"><?php esc_html_e( 'About Velrox', 'velrox' ); ?></a>
@@ -61,29 +61,29 @@
         </div>
     </div>
 
-    <!-- Slide 3 — Global Trade & Logistics Partner -->
+    <!-- Slide 3 -->
     <div class="hero-slide">
         <div class="hero-slide-bg">
-            <img src="https://images.pexels.com/photos/1117211/pexels-photo-1117211.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
-                 alt="<?php esc_attr_e( 'Global shipping logistics and trade', 'velrox' ); ?>"
+            <img src="https://images.pexels.com/photos/906982/pexels-photo-906982.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+                 alt="<?php esc_attr_e( 'Cold storage warehouse logistics', 'velrox' ); ?>"
                  loading="lazy">
         </div>
         <div class="hero-slide-overlay hero-slide-overlay--deep"></div>
         <div class="hero-content container">
             <div class="hero-text">
-                <div class="hero-tag"><span class="tag-dot"></span><?php esc_html_e( 'International Trade Partner', 'velrox' ); ?></div>
+                <div class="hero-tag"><span class="tag-dot"></span><?php esc_html_e( 'Cold-Chain Logistics Coordination', 'velrox' ); ?></div>
                 <h1 class="hero-title">
-                    <?php esc_html_e( 'Your Trusted Partner', 'velrox' ); ?><br>
-                    <span><?php esc_html_e( 'in Global', 'velrox' ); ?></span><br>
-                    <?php esc_html_e( 'Seafood Trade', 'velrox' ); ?>
+                    <?php esc_html_e( 'End-to-End Export', 'velrox' ); ?><br>
+                    <span><?php esc_html_e( 'Coordination to', 'velrox' ); ?></span><br>
+                    <?php esc_html_e( 'European Ports', 'velrox' ); ?>
                 </h1>
-                <p class="hero-subtitle"><?php esc_html_e( 'End-to-end logistics, transparent trade practices, and dedicated account support — from source to European ports, reliably delivered.', 'velrox' ); ?></p>
+                <p class="hero-subtitle"><?php esc_html_e( 'From procurement to reefer container loading — Velrox manages documentation, logistics, and buyer communication throughout the supply chain.', 'velrox' ); ?></p>
                 <div class="hero-actions">
                     <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn btn-primary btn-lg">
-                        <?php esc_html_e( 'Start a Conversation', 'velrox' ); ?>
+                        <?php esc_html_e( 'Send Your Requirements', 'velrox' ); ?>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
-                    <a href="<?php echo esc_url( home_url( '/services' ) ); ?>" class="btn btn-outline btn-lg"><?php esc_html_e( 'Our Services', 'velrox' ); ?></a>
+                    <a href="<?php echo esc_url( home_url( '/services' ) ); ?>" class="btn btn-outline btn-lg"><?php esc_html_e( 'Our Capabilities', 'velrox' ); ?></a>
                 </div>
             </div>
         </div>
@@ -97,7 +97,6 @@
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
     </button>
 
-    <!-- Pagination Dots -->
     <div class="hero-dots">
         <button class="hero-dot" aria-label="<?php esc_attr_e( 'Go to slide 1', 'velrox' ); ?>"></button>
         <button class="hero-dot" aria-label="<?php esc_attr_e( 'Go to slide 2', 'velrox' ); ?>"></button>
@@ -108,25 +107,104 @@
 </section>
 
 <!-- ============================================================
-     STATS BAR
+     TRUST STRIP
      ============================================================ -->
-<section class="stats-bar">
+<section class="trust-strip">
     <div class="container-wide">
-        <div class="stats-grid">
+        <div class="trust-grid">
             <?php
-            $stats = [
-                [ '10+',  __( 'Years Experience', 'velrox' ) ],
-                [ '50+',  __( 'Trading Partners', 'velrox' ) ],
-                [ '20+',  __( 'European Markets', 'velrox' ) ],
-                [ '100%', __( 'Quality Assured', 'velrox' ) ],
+            $trust_items = [
+                [ 'shieldcheck', __( 'HACCP-Oriented Supply', 'velrox' ) ],
+                [ 'truck',       __( 'Reefer Logistics Coordination', 'velrox' ) ],
+                [ 'package',     __( 'Export Documentation Support', 'velrox' ) ],
+                [ 'globe',       __( 'Europe-Focused Trade Network', 'velrox' ) ],
+                [ 'trending',    __( 'Long-Term Supply Partnerships', 'velrox' ) ],
             ];
-            foreach ( $stats as $stat ) :
+            foreach ( $trust_items as $item ) :
             ?>
-            <div class="stat-item animate-fade-up">
-                <span class="stat-num"><?php echo esc_html( $stat[0] ); ?></span>
-                <span class="stat-label"><?php echo esc_html( $stat[1] ); ?></span>
+            <div class="trust-item">
+                <div class="trust-icon"><?php echo velrox_icon( $item[0], 18 ); // phpcs:ignore ?></div>
+                <span class="trust-label"><?php echo esc_html( $item[1] ); ?></span>
             </div>
             <?php endforeach; ?>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     PRODUCT SHOWCASE
+     ============================================================ -->
+<section class="section-padding products-showcase">
+    <div class="container">
+        <div class="section-header centered">
+            <div class="section-tag animate-fade-up"><?php esc_html_e( 'Product Catalogue', 'velrox' ); ?></div>
+            <h2 class="section-title animate-fade-up delay-1">
+                <?php esc_html_e( 'Export-Ready Frozen', 'velrox' ); ?>
+                <span class="highlight"><?php esc_html_e( 'Seafood Range', 'velrox' ); ?></span>
+            </h2>
+            <p class="section-subtitle animate-fade-up delay-2">
+                <?php esc_html_e( 'A curated selection of our most in-demand products for European importers and wholesalers.', 'velrox' ); ?>
+            </p>
+        </div>
+        <div class="showcase-grid">
+            <?php
+            $showcase = [
+                [
+                    'name'   => __( 'Whole Fish', 'velrox' ),
+                    'img'    => 'https://images.pexels.com/photos/3296434/pexels-photo-3296434.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
+                    'tags'   => [ 'Export Grade', 'Bulk Packing' ],
+                ],
+                [
+                    'name'   => __( 'Mackerel', 'velrox' ),
+                    'img'    => 'https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
+                    'tags'   => [ 'Frozen', 'Container Supply' ],
+                ],
+                [
+                    'name'   => __( 'Tuna Steaks', 'velrox' ),
+                    'img'    => 'https://images.pexels.com/photos/1192031/pexels-photo-1192031.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
+                    'tags'   => [ 'Export Grade', 'IQF Frozen' ],
+                ],
+                [
+                    'name'   => __( 'Red Snapper', 'velrox' ),
+                    'img'    => 'https://images.pexels.com/photos/1860197/pexels-photo-1860197.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
+                    'tags'   => [ 'Frozen', 'Bulk Packing' ],
+                ],
+                [
+                    'name'   => __( 'Sardines', 'velrox' ),
+                    'img'    => 'https://images.pexels.com/photos/3296434/pexels-photo-3296434.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
+                    'tags'   => [ 'Export Grade', 'Container Supply' ],
+                ],
+                [
+                    'name'   => __( 'Frozen Portions', 'velrox' ),
+                    'img'    => 'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800&q=80',
+                    'tags'   => [ 'IQF Frozen', 'Bulk Packing' ],
+                ],
+            ];
+            foreach ( $showcase as $i => $product ) :
+            ?>
+            <div class="showcase-card animate-fade-up delay-<?php echo esc_attr( $i + 1 ); ?>">
+                <div class="showcase-img">
+                    <img src="<?php echo esc_url( $product['img'] ); ?>"
+                         alt="<?php echo esc_attr( $product['name'] ); ?>"
+                         loading="lazy">
+                    <div class="showcase-overlay"></div>
+                </div>
+                <div class="showcase-body">
+                    <h3 class="showcase-name"><?php echo esc_html( $product['name'] ); ?></h3>
+                    <div class="showcase-tags">
+                        <?php foreach ( $product['tags'] as $tag ) : ?>
+                        <span class="showcase-tag"><?php echo esc_html( $tag ); ?></span>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; ?>
+        </div>
+        <div class="showcase-footer animate-fade-up">
+            <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="btn btn-outline-dark">
+                <?php esc_html_e( 'View Full Product Range', 'velrox' ); ?>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
         </div>
     </div>
 </section>
@@ -139,34 +217,34 @@
         <div class="about-home-grid">
             <div class="animate-slide-left">
                 <div class="about-img-wrapper">
-                    <img src="https://images.pexels.com/photos/3766111/pexels-photo-3766111.jpeg?auto=compress&cs=tinysrgb&w=800&q=80"
-                         alt="<?php esc_attr_e( 'Seafood trading operations', 'velrox' ); ?>" loading="lazy">
+                    <img src="https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=800&q=80"
+                         alt="<?php esc_attr_e( 'Frozen seafood export operations', 'velrox' ); ?>" loading="lazy">
                     <div class="about-badge">
-                        <?php echo velrox_icon( 'fish', 20 ); // phpcs:ignore ?>
-                        <span><?php esc_html_e( 'Trusted Since 2010', 'velrox' ); ?></span>
+                        <?php echo velrox_icon( 'anchor', 20 ); // phpcs:ignore ?>
+                        <span><?php esc_html_e( 'Export Operations', 'velrox' ); ?></span>
                     </div>
                 </div>
             </div>
             <div class="animate-slide-right">
                 <div class="section-tag"><?php esc_html_e( 'About Velrox', 'velrox' ); ?></div>
                 <h2 class="section-title">
-                    <?php esc_html_e( 'Bridging Global Supply with', 'velrox' ); ?>
-                    <span class="highlight"><?php esc_html_e( 'European Standards', 'velrox' ); ?></span>
+                    <?php esc_html_e( 'A Dedicated Frozen Seafood', 'velrox' ); ?>
+                    <span class="highlight"><?php esc_html_e( 'Supply & Export Operator', 'velrox' ); ?></span>
                 </h2>
                 <div class="divider"></div>
                 <p style="margin-bottom:16px;">
-                    <?php esc_html_e( 'At Velrox, we connect global seafood supply with European market standards through reliable sourcing, transparent trade, and long-term partnerships.', 'velrox' ); ?>
+                    <?php esc_html_e( 'Velrox operates as a procurement coordinator and export facilitator — sourcing frozen seafood from certified processing partners across India and Asia, and coordinating full-container shipments to European buyers.', 'velrox' ); ?>
                 </p>
                 <p>
-                    <?php esc_html_e( 'Founded with a focus on international frozen seafood trading, Velrox works closely with processing partners and logistics networks to deliver consistent quality products to importers, wholesalers, distributors, and food service buyers across Europe.', 'velrox' ); ?>
+                    <?php esc_html_e( 'We work with importers, wholesalers, and distribution companies across Europe, managing supply arrangements from product specification through to port delivery.', 'velrox' ); ?>
                 </p>
                 <div class="about-checklist" style="margin:24px 0 32px;">
                     <?php
                     $checks = [
-                        __( 'Certified processing partners', 'velrox' ),
-                        __( 'EU food safety compliance', 'velrox' ),
-                        __( 'Transparent trade practices', 'velrox' ),
-                        __( 'Dedicated account support', 'velrox' ),
+                        __( 'Reefer container logistics', 'velrox' ),
+                        __( 'Back-to-back documentation', 'velrox' ),
+                        __( 'Multi-origin sourcing network', 'velrox' ),
+                        __( 'EU import compliance support', 'velrox' ),
                     ];
                     foreach ( $checks as $check ) :
                     ?>
@@ -174,7 +252,7 @@
                     <?php endforeach; ?>
                 </div>
                 <a href="<?php echo esc_url( home_url( '/about' ) ); ?>" class="btn btn-outline-dark">
-                    <?php esc_html_e( 'Learn More About Us', 'velrox' ); ?>
+                    <?php esc_html_e( 'Our Supply Capabilities', 'velrox' ); ?>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                 </a>
             </div>
@@ -183,38 +261,35 @@
 </section>
 
 <!-- ============================================================
-     WHAT WE DO — SERVICE CARDS
+     HOW VELROX OPERATES — SERVICE CARDS
      ============================================================ -->
 <section class="section-padding services-section">
     <div class="container">
         <div class="section-header centered">
-            <div class="section-tag animate-fade-up"><?php esc_html_e( 'What We Do', 'velrox' ); ?></div>
+            <div class="section-tag animate-fade-up"><?php esc_html_e( 'Our Process', 'velrox' ); ?></div>
             <h2 class="section-title animate-fade-up delay-1">
-                <?php esc_html_e( 'Comprehensive', 'velrox' ); ?>
-                <span class="highlight"><?php esc_html_e( 'Seafood Trade', 'velrox' ); ?></span>
-                <?php esc_html_e( 'Services', 'velrox' ); ?>
+                <?php esc_html_e( 'How Velrox', 'velrox' ); ?>
+                <span class="highlight"><?php esc_html_e( 'Coordinates Your Supply', 'velrox' ); ?></span>
             </h2>
             <p class="section-subtitle animate-fade-up delay-2">
-                <?php esc_html_e( 'From sourcing to logistics, we provide end-to-end solutions for your frozen seafood procurement needs.', 'velrox' ); ?>
+                <?php esc_html_e( 'From sourcing to port delivery — a structured process built around your requirements.', 'velrox' ); ?>
             </p>
         </div>
         <div class="services-home-grid">
             <?php
             $services = [
-                [ 'fish',    __( 'Frozen Seafood Sourcing', 'velrox' ),     __( 'Direct access to premium frozen seafood from certified processing partners across global supply chains.', 'velrox' ) ],
-                [ 'package', __( 'Export Coordination', 'velrox' ),         __( 'End-to-end export management ensuring compliance with international trade regulations and documentation.', 'velrox' ) ],
-                [ 'truck',   __( 'Logistics & Distribution', 'velrox' ),    __( 'Container logistics and cold-chain distribution networks optimized for European market delivery.', 'velrox' ) ],
-                [ 'chart',   __( 'Customized Trade Solutions', 'velrox' ),  __( 'Customized commercial trade solutions tailored to the specific needs of importers and wholesalers.', 'velrox' ) ],
+                [ 'anchor',      '01', __( 'Procurement Coordination', 'velrox' ),    __( 'Buyer requirements aligned with pre-qualified HACCP-certified processing partners across our Asian supply network.', 'velrox' ) ],
+                [ 'shieldcheck', '02', __( 'Quality & Documentation', 'velrox' ),     __( 'Health certificates, EU phytosanitary requirements, and all export documentation coordinated prior to shipment.', 'velrox' ) ],
+                [ 'truck',       '03', __( 'Cold Chain Logistics', 'velrox' ),        __( 'Reefer container booking, temperature monitoring, and port-to-port coordination to your European destination.', 'velrox' ) ],
+                [ 'zap',         '04', __( 'Buyer Communication', 'velrox' ),         __( 'A dedicated point of contact for pricing, availability, documentation, and real-time shipment updates.', 'velrox' ) ],
             ];
             foreach ( $services as $i => $svc ) :
             ?>
             <div class="service-card animate-fade-up delay-<?php echo esc_attr( $i + 1 ); ?>">
+                <div class="service-step-num"><?php echo esc_html( $svc[1] ); ?></div>
                 <div class="service-icon"><?php echo velrox_icon( $svc[0], 28 ); // phpcs:ignore ?></div>
-                <h3 class="service-title"><?php echo esc_html( $svc[1] ); ?></h3>
-                <p class="service-desc"><?php echo esc_html( $svc[2] ); ?></p>
-                <a href="<?php echo esc_url( home_url( '/services' ) ); ?>" class="service-link">
-                    <?php esc_html_e( 'Learn more', 'velrox' ); ?>
-                </a>
+                <h3 class="service-title"><?php echo esc_html( $svc[2] ); ?></h3>
+                <p class="service-desc"><?php echo esc_html( $svc[3] ); ?></p>
             </div>
             <?php endforeach; ?>
         </div>
@@ -222,33 +297,33 @@
 </section>
 
 <!-- ============================================================
-     OUR STRENGTHS
+     SUPPLY ADVANTAGES
      ============================================================ -->
 <section class="section-padding" style="background:var(--white);">
     <div class="container">
         <div class="strengths-grid">
             <div class="animate-slide-left">
-                <div class="section-tag"><?php esc_html_e( 'Our Strengths', 'velrox' ); ?></div>
+                <div class="section-tag"><?php esc_html_e( 'Supply Advantages', 'velrox' ); ?></div>
                 <h2 class="section-title">
-                    <?php esc_html_e( 'Why the Industry', 'velrox' ); ?>
-                    <span class="highlight"><?php esc_html_e( 'Trusts Velrox', 'velrox' ); ?></span>
+                    <?php esc_html_e( 'Built for Serious', 'velrox' ); ?>
+                    <span class="highlight"><?php esc_html_e( 'Seafood Procurement', 'velrox' ); ?></span>
                 </h2>
                 <div class="divider"></div>
                 <p class="section-subtitle">
-                    <?php esc_html_e( 'Built on decades of experience in international seafood trade, our capabilities set us apart in the European market.', 'velrox' ); ?>
+                    <?php esc_html_e( 'Structured sourcing, reliable documentation, and logistics coordination — purpose-built for European buyers.', 'velrox' ); ?>
                 </p>
                 <a href="<?php echo esc_url( home_url( '/why-velrox' ) ); ?>" class="btn btn-primary" style="margin-top:32px;">
-                    <?php esc_html_e( 'Why Choose Us', 'velrox' ); ?>
+                    <?php esc_html_e( 'View Supply Capabilities', 'velrox' ); ?>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                 </a>
             </div>
             <div class="strengths-items">
                 <?php
                 $strengths = [
-                    [ 'anchor',      __( 'Direct Sourcing from India', 'velrox' ),       __( 'Strong established relationships with certified processing partners in India\'s seafood industry.', 'velrox' ) ],
-                    [ 'globe',       __( 'European Logistics Network', 'velrox' ),        __( 'Deep knowledge of European import standards, cold-chain requirements, and distribution channels.', 'velrox' ) ],
-                    [ 'zap',         __( 'Commercial Flexibility', 'velrox' ),            __( 'Adaptable commercial terms and supply arrangements to match your business requirements.', 'velrox' ) ],
-                    [ 'shieldcheck', __( 'Quality & Compliance Commitment', 'velrox' ),   __( 'Rigorous quality standards and full compliance with EU food safety and import regulations.', 'velrox' ) ],
+                    [ 'globe',  __( 'Europe-Focused Supply Network', 'velrox' ),    __( 'Sourcing and logistics structured specifically around EU import requirements and buyer expectations.', 'velrox' ) ],
+                    [ 'truck',  __( 'Flexible Shipment Structures', 'velrox' ),     __( 'FCL and LCL options available, from trial orders to full annual container supply programmes.', 'velrox' ) ],
+                    [ 'zap',    __( 'Responsive Communication', 'velrox' ),         __( 'Dedicated contact managing pricing, availability, documentation, and delivery at every stage.', 'velrox' ) ],
+                    [ 'anchor', __( 'Multi-Origin Procurement', 'velrox' ),         __( 'India, Vietnam, and Indonesia sourcing networks for product diversity and supply continuity.', 'velrox' ) ],
                 ];
                 foreach ( $strengths as $i => $s ) :
                 ?>
@@ -266,30 +341,30 @@
 </section>
 
 <!-- ============================================================
-     OUR APPROACH
+     SUPPLY EXECUTION (DARK SECTION)
      ============================================================ -->
 <section class="section-padding approach-section">
     <div class="approach-bg">
-        <img src="https://images.pexels.com/photos/1117211/pexels-photo-1117211.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
-             alt="<?php esc_attr_e( 'Ocean shipping', 'velrox' ); ?>" loading="lazy">
+        <img src="https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=1920&q=80"
+             alt="<?php esc_attr_e( 'Container port logistics', 'velrox' ); ?>" loading="lazy">
         <div class="approach-overlay"></div>
     </div>
     <div class="container">
         <div class="approach-content">
             <div class="section-tag animate-fade-up" style="background:rgba(0,166,203,0.15);border-color:rgba(0,166,203,0.30);color:#00A6CB;">
-                <?php esc_html_e( 'Our Approach', 'velrox' ); ?>
+                <?php esc_html_e( 'Supply Execution', 'velrox' ); ?>
             </div>
             <h2 class="section-title animate-fade-up delay-1" style="color:white;">
-                <?php esc_html_e( 'How We Deliver', 'velrox' ); ?>
-                <span class="highlight"><?php esc_html_e( 'Excellence', 'velrox' ); ?></span>
+                <?php esc_html_e( 'How We Execute', 'velrox' ); ?>
+                <span class="highlight"><?php esc_html_e( 'Each Shipment', 'velrox' ); ?></span>
             </h2>
             <div class="approach-steps">
                 <?php
                 $steps = [
-                    [ '01', __( 'Reliable Sourcing', 'velrox' ),           __( 'We maintain strong relationships with certified processing partners, ensuring consistent product availability and quality.', 'velrox' ) ],
-                    [ '02', __( 'Efficient Logistics', 'velrox' ),          __( 'Our cold-chain logistics network ensures your seafood arrives in perfect condition, on time, every time.', 'velrox' ) ],
-                    [ '03', __( 'Competitive Pricing', 'velrox' ),          __( 'Direct sourcing relationships and operational efficiency allow us to offer market-competitive pricing structures.', 'velrox' ) ],
-                    [ '04', __( 'Long-term Relationships', 'velrox' ),      __( 'We grow with our partners, building lasting commercial relationships through trust, transparency, and consistent delivery.', 'velrox' ) ],
+                    [ '01', __( 'Buyer Requirement Review', 'velrox' ),           __( 'Product specs, packaging, labelling, volume, and delivery terms confirmed before sourcing begins.', 'velrox' ) ],
+                    [ '02', __( 'Supplier Allocation & Quality Check', 'velrox' ), __( 'Sourcing from pre-qualified HACCP-certified partners with pre-shipment inspection coordination.', 'velrox' ) ],
+                    [ '03', __( 'Export & Documentation Management', 'velrox' ),   __( 'BL, health certificates, phytosanitary, EUR.1, and all EU customs documentation handled end-to-end.', 'velrox' ) ],
+                    [ '04', __( 'Reefer Logistics & Delivery', 'velrox' ),         __( 'Container booking, temperature-controlled transport, and coordination to your European destination port.', 'velrox' ) ],
                 ];
                 foreach ( $steps as $i => $step ) :
                 ?>
@@ -307,57 +382,64 @@
 </section>
 
 <!-- ============================================================
-     VISION & MISSION PREVIEW
+     COMMERCIAL TRADE CAPABILITIES
      ============================================================ -->
-<section class="section-padding" style="background:var(--grey-bg);">
+<section class="section-padding capabilities-section">
     <div class="container">
         <div class="section-header centered">
-            <div class="section-tag animate-fade-up"><?php esc_html_e( 'Vision & Mission', 'velrox' ); ?></div>
-            <h2 class="section-title animate-fade-up delay-1">
-                <?php esc_html_e( 'Guided by', 'velrox' ); ?>
-                <span class="highlight"><?php esc_html_e( 'Purpose', 'velrox' ); ?></span>
+            <div class="section-tag animate-fade-up" style="background:rgba(0,166,203,0.15);border-color:rgba(0,166,203,0.30);color:#00A6CB;"><?php esc_html_e( 'B2B Supply Structure', 'velrox' ); ?></div>
+            <h2 class="section-title animate-fade-up delay-1" style="color:white;">
+                <?php esc_html_e( 'Commercial Trade', 'velrox' ); ?>
+                <span class="highlight"><?php esc_html_e( 'Capabilities', 'velrox' ); ?></span>
             </h2>
         </div>
-        <div class="vm-grid">
-            <div class="vm-card vm-vision animate-slide-left">
-                <div class="vm-icon"><?php echo velrox_icon( 'globe', 32 ); // phpcs:ignore ?></div>
-                <h3><?php esc_html_e( 'Our Vision', 'velrox' ); ?></h3>
-                <p><?php esc_html_e( 'To become a leading international seafood trading company known for reliability, quality, and sustainable supply chain excellence across European markets.', 'velrox' ); ?></p>
-                <a href="<?php echo esc_url( home_url( '/vision-mission' ) ); ?>" class="vm-link"><?php esc_html_e( 'Read More', 'velrox' ); ?></a>
+        <div class="capabilities-grid">
+            <?php
+            $caps = [
+                [ 'globe',       __( 'CIF Europe Terms', 'velrox' ),                   __( 'Cost, insurance, and freight to European ports.', 'velrox' ) ],
+                [ 'package',     __( 'Consolidated Container Shipments', 'velrox' ),    __( 'FCL and LCL options for all order volumes.', 'velrox' ) ],
+                [ 'anchor',      __( 'Buyer-Specific Packing', 'velrox' ),              __( 'Private label and custom packaging available.', 'velrox' ) ],
+                [ 'shieldcheck', __( 'Back-to-Back Documentation', 'velrox' ),          __( 'Full EU import compliance documentation handled.', 'velrox' ) ],
+                [ 'trending',    __( 'CAD / LC Coordination', 'velrox' ),               __( 'Flexible payment terms for established buyers.', 'velrox' ) ],
+                [ 'zap',         __( 'Multi-Buyer Shipment Structuring', 'velrox' ),    __( 'Consolidated loads for multiple buyer accounts.', 'velrox' ) ],
+            ];
+            foreach ( $caps as $i => $cap ) :
+            ?>
+            <div class="cap-card animate-fade-up delay-<?php echo esc_attr( $i + 1 ); ?>">
+                <div class="cap-icon"><?php echo velrox_icon( $cap[0], 24 ); // phpcs:ignore ?></div>
+                <div class="cap-body">
+                    <div class="cap-title"><?php echo esc_html( $cap[1] ); ?></div>
+                    <p class="cap-desc"><?php echo esc_html( $cap[2] ); ?></p>
+                </div>
             </div>
-            <div class="vm-card vm-mission animate-slide-right">
-                <div class="vm-icon"><?php echo velrox_icon( 'anchor', 32 ); // phpcs:ignore ?></div>
-                <h3><?php esc_html_e( 'Our Mission', 'velrox' ); ?></h3>
-                <p><?php esc_html_e( 'To bridge global seafood supply with European market standards by delivering transparent, efficient, and reliable trade partnerships that create lasting value for all stakeholders.', 'velrox' ); ?></p>
-                <a href="<?php echo esc_url( home_url( '/vision-mission' ) ); ?>" class="vm-link"><?php esc_html_e( 'Read More', 'velrox' ); ?></a>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
 
 <!-- ============================================================
-     WHY VELROX HIGHLIGHTS
+     WHY VELROX
      ============================================================ -->
 <section class="section-padding" style="background:var(--white);">
     <div class="container">
         <div class="section-header centered">
             <div class="section-tag animate-fade-up"><?php esc_html_e( 'Why Velrox', 'velrox' ); ?></div>
             <h2 class="section-title animate-fade-up delay-1">
-                <?php esc_html_e( 'The Velrox', 'velrox' ); ?>
-                <span class="highlight"><?php esc_html_e( 'Advantage', 'velrox' ); ?></span>
+                <?php esc_html_e( 'What Makes Velrox a', 'velrox' ); ?>
+                <span class="highlight"><?php esc_html_e( 'Reliable Supply Partner', 'velrox' ); ?></span>
             </h2>
             <p class="section-subtitle animate-fade-up delay-2">
-                <?php esc_html_e( 'We combine industry expertise with a client-first approach to deliver measurable value to every partner.', 'velrox' ); ?>
+                <?php esc_html_e( 'Purpose-built for European buyers who need consistent supply, clear communication, and commercial flexibility.', 'velrox' ); ?>
             </p>
         </div>
         <div class="why-grid">
             <?php
             $why_cards = [
-                [ 'globe',    __( 'International Trade Mindset', 'velrox' ),   __( 'Built for cross-border trade with deep expertise in navigating global seafood markets.', 'velrox' ) ],
-                [ 'trending', __( 'European Market Orientation', 'velrox' ),   __( 'Specialized understanding of European buyer expectations, certifications, and regulations.', 'velrox' ) ],
-                [ 'package',  __( 'Flexible Supply Capabilities', 'velrox' ),  __( 'Volume flexibility from trial orders to full container loads to match your procurement cycle.', 'velrox' ) ],
-                [ 'zap',      __( 'Fast Communication', 'velrox' ),            __( 'Dedicated team ensuring rapid response and transparent communication at every step.', 'velrox' ) ],
-                [ 'users',    __( 'Long-term Partnership Focus', 'velrox' ),   __( 'We invest in relationships, not transactions — growing together with our trading partners.', 'velrox' ) ],
+                [ 'globe',    __( 'Europe-Focused Supply', 'velrox' ),      __( 'All sourcing, documentation, and logistics structured around EU import requirements.', 'velrox' ) ],
+                [ 'package',  __( 'Flexible Volume Options', 'velrox' ),    __( 'Trial shipments to multi-container annual programmes — matched to your procurement cycle.', 'velrox' ) ],
+                [ 'zap',      __( 'Single Point of Contact', 'velrox' ),    __( 'One dedicated coordinator from pricing through to port arrival.', 'velrox' ) ],
+                [ 'shield',   __( 'Transparent Operations', 'velrox' ),     __( 'Open communication on pricing, lead times, and shipment status at every stage.', 'velrox' ) ],
+                [ 'trending', __( 'Long-Term Supply Approach', 'velrox' ),  __( 'Built for repeat business and growing supply relationships — not one-off transactions.', 'velrox' ) ],
             ];
             foreach ( $why_cards as $i => $card ) :
             ?>
@@ -372,26 +454,26 @@
 </section>
 
 <!-- ============================================================
-     GLOBAL TRADE SECTION
+     SUPPLY NETWORK
      ============================================================ -->
 <section class="section-padding" style="background:var(--grey-bg);">
     <div class="container">
         <div class="global-inner animate-fade-up">
             <div class="global-bg">
-                <img src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=1200&q=80"
-                     alt="<?php esc_attr_e( 'Global shipping', 'velrox' ); ?>" loading="lazy">
+                <img src="https://images.pexels.com/photos/1117210/pexels-photo-1117210.jpeg?auto=compress&cs=tinysrgb&w=1200&q=80"
+                     alt="<?php esc_attr_e( 'Container shipping at port', 'velrox' ); ?>" loading="lazy">
             </div>
             <div class="global-overlay"></div>
             <div class="global-content">
                 <div class="section-tag" style="background:rgba(0,166,203,0.15);border-color:rgba(0,166,203,0.30);">
-                    <?php esc_html_e( 'Global Reach', 'velrox' ); ?>
+                    <?php esc_html_e( 'Supply Network', 'velrox' ); ?>
                 </div>
-                <h2><?php esc_html_e( 'Connecting Supply Chains Across Continents', 'velrox' ); ?></h2>
-                <p><?php esc_html_e( 'From the processing facilities in South Asia to the ports of Northern Europe, Velrox manages the entire trade journey to ensure your seafood arrives with quality and precision.', 'velrox' ); ?></p>
+                <h2><?php esc_html_e( 'Connecting Asian Supply with European Demand', 'velrox' ); ?></h2>
+                <p><?php esc_html_e( 'Velrox operates across established seafood processing networks in India, Vietnam, and Indonesia — coordinating supply for European importers, wholesalers, and distribution companies.', 'velrox' ); ?></p>
                 <div class="global-tags">
-                    <div class="global-tag"><?php echo velrox_icon( 'mappin', 18 ); // phpcs:ignore ?> <span><?php esc_html_e( 'India Origin Sourcing', 'velrox' ); ?></span></div>
-                    <div class="global-tag"><?php echo velrox_icon( 'truck', 18 ); // phpcs:ignore ?> <span><?php esc_html_e( 'EU Port Delivery', 'velrox' ); ?></span></div>
-                    <div class="global-tag"><?php echo velrox_icon( 'shieldcheck', 18 ); // phpcs:ignore ?> <span><?php esc_html_e( 'HACCP Compliant', 'velrox' ); ?></span></div>
+                    <div class="global-tag"><?php echo velrox_icon( 'mappin', 18 ); // phpcs:ignore ?> <span><?php esc_html_e( 'India / Vietnam / Indonesia', 'velrox' ); ?></span></div>
+                    <div class="global-tag"><?php echo velrox_icon( 'truck', 18 ); // phpcs:ignore ?> <span><?php esc_html_e( 'Reefer Container Export', 'velrox' ); ?></span></div>
+                    <div class="global-tag"><?php echo velrox_icon( 'globe', 18 ); // phpcs:ignore ?> <span><?php esc_html_e( 'EU Port Destinations', 'velrox' ); ?></span></div>
                 </div>
             </div>
         </div>
@@ -404,15 +486,15 @@
 <section class="cta-section">
     <div class="container">
         <div class="cta-inner animate-fade-up">
-            <h2><?php esc_html_e( 'Ready to Start a Conversation?', 'velrox' ); ?></h2>
-            <p><?php esc_html_e( 'Reach out to discuss your seafood sourcing requirements and discover how Velrox can support your business.', 'velrox' ); ?></p>
+            <h2><?php esc_html_e( 'Looking for a Reliable Frozen Seafood Supplier?', 'velrox' ); ?></h2>
+            <p><?php esc_html_e( 'Send us your product requirements and we will respond with availability, specifications, and pricing within 24 hours.', 'velrox' ); ?></p>
             <div class="cta-actions">
                 <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="btn btn-primary btn-lg">
-                    <?php esc_html_e( 'Get In Touch', 'velrox' ); ?>
+                    <?php esc_html_e( 'Send Your Requirements', 'velrox' ); ?>
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                 </a>
-                <a href="<?php echo esc_url( home_url( '/services' ) ); ?>" class="btn btn-outline btn-lg">
-                    <?php esc_html_e( 'View Services', 'velrox' ); ?>
+                <a href="<?php echo esc_url( home_url( '/products' ) ); ?>" class="btn btn-outline btn-lg">
+                    <?php esc_html_e( 'View Product Range', 'velrox' ); ?>
                 </a>
             </div>
         </div>
